@@ -3,7 +3,7 @@ Problem description:
 Write a command line utility demonstrating:
 * The [write(2)](https://www.man7.org/linux/man-pages/man2/write.2.html) System Call;
 * Working with command line arguments.
-<br/>
+
 On normal startup, the program should print the string "Hello world" to the console.
 <br/>
 If you specify one positional argument, then the specified text should be displayed instead of "Hello, world".
