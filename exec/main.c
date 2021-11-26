@@ -2,8 +2,7 @@
 #include <stdlib.h>
 #include <unistd.h>
 
-int main()
-{
+int main() {
     char *argv[] = {"bash", "-c", "echo \"psome is $psome\"", NULL};
     char *envp[] = {"psome=some", NULL};
 
