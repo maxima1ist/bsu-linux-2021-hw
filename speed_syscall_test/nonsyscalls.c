@@ -15,7 +15,6 @@ void dumbSwapStr() {
 }
 
 int main() {
-
     struct timeval current_time;
 
     gettimeofday(&current_time, NULL);
