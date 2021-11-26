@@ -1,7 +1,8 @@
 # syscall 'write'
 Problem description:  
+
 Write a command line utility demonstrating:
-* The [write(2)](https://www.man7.org/linux/man-pages/man2/write.2.html) System Call;
+* The [write(2)](https://www.man7.org/linux/man-pages/man2/write.2.html) system call;
 * Working with command line arguments.
 
 On normal startup, the program should print the string "Hello world" to the console.
