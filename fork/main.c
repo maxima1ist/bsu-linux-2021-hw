@@ -5,16 +5,14 @@
 #include <sys/types.h>
 #include <sys/wait.h>
 
-int main()
-{
+int main() {
     pid_t pid;
     int rv = 0;
     int status;
     printf("PARENT: PID -- %d\n", getpid());
     printf("PARENT: parent PID -- %d\n", getppid());
 
-    switch (pid = fork())
-    {
+    switch (pid = fork()) {
     case -1:
         perror("fork");
         exit(1);
